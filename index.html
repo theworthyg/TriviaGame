@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<title>TrivialTrivia</title>
+
+    <!-- Style CSS/Bootstrap -->
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+    
+
+    <!-- Javascript/JQUERY -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type='text/javascript' src='assets/javascript/app.js'></script>	
+
+
+
+</head>
+
+<body class = "background">
+
+<!-- START BUTTON -->
+
+
+	<h1 class='mainTitle'>Superhero Trivia</h1>
+
+	<img class='rounded mx-auto d-block img-tumbnail' src="assets/images/supermanburgers.jpg" alt="supermanburgers">
+
+	<button class='startGame col-md-12 alert alert-warning'>Click Here to Play!</button>
+
+
+
+
+
+<!-- Quiz DIV -->
+	<div class='wrapper'>
+
+
+<!-- div to hold countdown timer -->
+		<div class='timer' id='timeLeft'></div>
+        
+<!-- div to hold all the questions -->
+		<div class='form' id='questions-container'></div>
+
+	</div>
+
+
+<!-- DONE BUTTON-->
+	<button id = "doneButton" class = "col-md-12 alert alert-danger"> Done </button>
+
+<!-- message to be displayed when time is up -->
+	<div class='message' id='messageDiv'></div>
+
+<!-- div to display the results of the game --> 
+	<div class='results'></div>
+
+</body>
+</html>
